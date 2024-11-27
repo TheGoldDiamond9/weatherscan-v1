@@ -1932,6 +1932,9 @@ var mainMap
 					function fillinfo() {
 						aidx = (aidx===undefined ? 1 : aidx);
 						var di = 0;
+						$('.info-slide-content.destinationforecast .thing .thingtext .daytitle.i').text(weatherInfo.travel.cities[0].days[0].dayName.toUpperCase())
+						$('.info-slide-content.destinationforecast .thing .thingtext .daytitle.ii').text(weatherInfo.travel.cities[0].days[1].dayName.toUpperCase())
+						$('.info-slide-content.destinationforecast .thing .thingtext .daytitle.iii').text(weatherInfo.travel.cities[0].days[2].dayName.toUpperCase())
 						for (var i = 3*aidx - 3; i < 3*aidx && i < weatherInfo.travel.cities.length; i++) {
 							var divnumbers = ['toploc','midloc','botloc']
 							if (weatherInfo.travel.cities[i]) {
