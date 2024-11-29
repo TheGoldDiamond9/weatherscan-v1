@@ -1,4 +1,7 @@
 # weatherscan-v1
+
+Friendly reminder: This V1 isn't going anywhere. It will be up until the end of time.
+
 Best used with Google Chrome on Windows 10-11
 
 For a a website based demo, go to https://v1.weatherscan.net/
