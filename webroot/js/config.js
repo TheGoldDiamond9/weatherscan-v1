@@ -1,18 +1,8 @@
 //Some of the settings may or may not work as this is not a fully completed update. Mainly Appearance settings and weather variables that arent finished.
 //Input API Keys below. If no API is inputted, sim will default to no report.
 var api_key = 'e1f10a1e78da46f5b10a1e78da96f525';
-var map_key = 'pk.eyJ1Ijoiam9lbW9saW5lbGxpIiwiYSI6ImNscXd1a29idDA3MjcyaW10MjBrazN0Ym8ifQ.2c81zLP6d1LTi1Y0TMYejQ';
-var traf_key
-function randomKey() {
-  codeval = Math.random() * (2.9 - 0)
-  codeval = codeval.toString().substring(0,1)
-  let finalcodeval = Number(codeval);
-  var tkeys = ['O4oaqTxH53uWF2yRCknGZb367LIZvrBr',
-    'ZGbDSq2LAIgaEArstZfeMWV8HQwG2Dlu',
-    'cJG5MpqFVuqA6VfHYFcDxz2NoQOmmBVG'];
-  traf_key = tkeys[finalcodeval]
-}
-randomKey();
+var map_key = 'YOUR_API_KEY';
+var traf_key = "YOUR_API_KEY
 //Apperance settings. Fields left blank will use defaults. Will only refresh upon reload.
 var apperanceSettings = {
   iconSet:"2005", //2007 or 2010 or 2005
