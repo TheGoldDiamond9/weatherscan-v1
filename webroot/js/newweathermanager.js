@@ -149,10 +149,10 @@ function getMainLoc(configFailed) {
           maincitycoords.lon = data.location.longitude[cidx]
           maincitycoords.name = data.location.displayName[cidx]
           maincitycoords.state = data.location.adminDistrictCode[cidx]
-          trafficcoord1.lat = data.location.latitude[cidx]-=0.3885
-          trafficcoord1.lon = data.location.longitude[cidx]-=0.3885
-          trafficcoord2.lat = data.location.latitude[cidx]+=0.3885
-          trafficcoord2.lon = data.location.longitude[cidx]+=0.3885
+          trafficcoords1.lat = data.location.latitude[cidx]-=0.3885
+          trafficcoords1.lon = data.location.longitude[cidx]-=0.3885
+          trafficcoords2.lat = data.location.latitude[cidx]+=0.3885
+          trafficcoords2.lon = data.location.longitude[cidx]+=0.3885
           maincitycoords.displayname = ((locationSettings.mainLocation.displayName) ? locationSettings.mainLocation.displayName : data.location.displayName[cidx])
           $("#locationname").text("location name: "+maincitycoords.displayname)
           state = data.location.adminDistrict[cidx];
