@@ -1,4 +1,4 @@
-NEW VERSION AT https://github.com/MistWeatherMedia/weatherscan2004
+NEW VERSION AT https://github.com/MistWeatherMedia/weatherscanv1
 
 # weatherscan-v1
 
