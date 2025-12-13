@@ -1,3 +1,5 @@
+NEW VERSION AT https://github.com/MistWeatherMedia/weatherscan2004
+
 # weatherscan-v1
 
 Best used with Google Chrome on Windows 10-11
